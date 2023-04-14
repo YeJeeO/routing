@@ -1,0 +1,54 @@
+body{
+    background-image:url('Free\ Desktop\ Kids\ Wallpapers-6.jpg') ;
+    color: rgb(26, 8, 49);
+}
+
+table{
+	border: 1px solid #eee;
+	table-layout: fixed;
+	width: 100%;
+	margin-bottom: 20px;
+	overflow-wrap: break-word;
+}
+th {
+	font-weight: bold;
+	padding: 5px;
+	background: #b2bedb;
+	border: 1px solid #dddddd;
+}
+td{
+	padding: 5px 10px;
+	border: 1px solid rgb(239, 244, 227);
+	text-align: left;
+	
+}
+tbody tr:nth-child(odd){
+	background: #F7F7F7;}
+
+tbody tr:nth-child(even){
+	background: rgb(173, 189, 159);
+}
+	
+input{
+	width: 90%;
+}
+body {
+    font-family: system-ui;
+    margin: 0;
+  }
+  main{
+    padding: 1em;
+  }
+  nav {
+    display: flex;
+    font-size: x-large;
+    justify-content: space-evenly;
+  }
+  nav > a {
+    padding: 0.5em;
+  }
+  nav > a.active {
+    background-color: ActiveText;
+    color: Canvas;
+    text-shadow: 0 0 6px black;
+  }
